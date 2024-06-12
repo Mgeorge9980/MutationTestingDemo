@@ -6,7 +6,11 @@
         thirdAngle)
         {
             string result;
-            if ((firstAngle + secondAngle + thirdAngle) == 180)
+            //Mutant : Consider the triangle as valid only if all the angles are greater than 90 degrees.
+            if (firstAngle > 90 && secondAngle > 90 && thirdAngle > 90)
+
+            //Without mutation
+            //if ((firstAngle + secondAngle + thirdAngle) == 180)
             {
                 result = "The triangle is valid.";
             }
