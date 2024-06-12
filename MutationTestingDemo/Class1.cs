@@ -2,6 +2,7 @@
 {
     public class Triangle
     {
+        //MERLIN GEORGE
         public static string ValidTriangle(int firstAngle, int secondAngle, int
         thirdAngle)
         {

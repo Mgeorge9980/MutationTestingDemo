@@ -18,6 +18,7 @@ namespace TestClass
                 string expected = "The triangle is valid.";
                 // Act
                 string actual = Triangle.ValidTriangle(firstAngle, secondAngle, thirdAngle);
+                //Assert
                 Assert.AreEqual(expected, actual);
             }
         }
